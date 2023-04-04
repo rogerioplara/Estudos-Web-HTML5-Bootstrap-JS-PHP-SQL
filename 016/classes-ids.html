@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Classes & IDs</title>
+    <style>
+        /* 
+        * {
+            background: red;
+            color: white;
+        } 
+
+        p {
+            background: yellow;
+            color: black;
+        }
+
+        li {
+            background: yellow;
+            color: black;
+        } 
+
+        Seletor de classe
+        .cor {
+            background: green;
+        }  
+        
+
+        Seletor de ID -> cada página deve ter ids únicos
+        #paragrafo1 {
+            background: blue;
+            color: white;
+        }
+        
+        Elementos podem ter multiplas classes
+        .aaa {
+            background: red;
+        }
+
+        .bbb {
+            color: white;
+        }
+        
+        Afeta todos os elementos separados por vírgula
+        li,
+        span {
+            background: green;
+        }
+        
+        Afeta todos os elementos de li dentro do div div */
+        li.aaa {
+            background: yellow;
+        }
+
+        div li#primeiro {
+            background: green;
+        }
+
+        .cor-fundo {
+            background: red;
+        }
+
+        .titulo {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Este é o conteúdo de um elemento div</div>
+    <div>Temos aqui outro elemento div</div>
+    <span class="cor">Este é um texto dentro de um elemento span</span>
+
+    <div class="bbb aaa">
+        <p class="titulo cor-fundo">Teste</p>
+    </div>
+
+    <div>
+        <ul>
+            <li class="teste">Primeiro elemento de uma lista</li>
+            <li id="primeiro">Segundo elemento de uma lista</li>
+            <li class="aaa">Terceiro elemento de uma lista</li>
+            <li class="cor">Quarto elemento de uma lista</li>
+            <li>Quinto elemento de uma lista</li>
+        </ul>
+    </div>
+
+    <p>Fim do exercício sobre seletores</p>
+
+</body>
+
+</html>

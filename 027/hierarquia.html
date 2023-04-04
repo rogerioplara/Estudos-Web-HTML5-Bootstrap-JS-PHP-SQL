@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarquia de Estilo</title>
+
+    <!-- Será a primeira a ser chamada, porém será sobrescrita -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Sobrepõe a declaração do style.css -->
+    <style>
+        .estilo {
+            background-color: black;
+
+            /* Sobrepõe todas as outras que forem escritas antes ou depois dessa com !important */
+            color: red !important;
+
+            padding: 50px;
+            margin-right: 50px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        Sobrescreve todas as anteriores 
+        Hierarquia -> mais abaixo sobrepõe a mais acima
+    -->
+    <h1 class="estilo" style="color:yellow">
+        Lorem ipsum dolor.
+    </h1>
+</body>
+
+</html>

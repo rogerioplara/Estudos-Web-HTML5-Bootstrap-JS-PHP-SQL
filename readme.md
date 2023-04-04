@@ -38,3 +38,21 @@
 
     Organização de layouts de HTML.
 
+    Declarações de CSS
+        - Propriedade
+            Propriedades tem nomes facilitadores ex: font-size, backgroud.
+
+        - Valor
+            Valores que as propriedades podem ter ex: red, 18px.
+
+    Cores
+        - Palavras chaves de cores
+            Cerca de 140 cores.
+        
+        - RGB e RGBA
+            Red, green e blue (alpha).
+
+        - Código hexadecimal
+            6 ou 8 caracteres (no caso do alpha) que permitem definir as cores.
+
+        - Outros
