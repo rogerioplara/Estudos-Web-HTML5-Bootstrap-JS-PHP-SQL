@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Coordenadas sempre funcionam da esquerda para direta, de cima para baixo */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .div-1 {
+            /* Posição absoluta em relação a página */
+            position: relative;
+            margin: auto;
+            width: 50%;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .div-2 {
+            /* Posição relativa ao seu elemento pai */
+            position: relative;
+            left: 10px;
+            top: 10px;
+            width: 50px;
+            height: 50px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-1">
+        <div class="div-2"></div>
+    </div>
+</body>
+
+</html>
