@@ -30,6 +30,14 @@
                 Não tem conteúdo.
                 Permitem melhorar a organização da página HTML.
                 Criar condições para usar o CSS da melhor forma.
+
+    Por que index.html?
+        - Os servidores adotam o index.html como "base/entrada" para apresentar ao usuário, caso não tenha, será mostrada uma lista de arquivos daquela página no servidor;
+
+        Hiperlinks 
+            -> criado com o elemento <a>
+            -> permite navegar entre páginas
+            -> permite navegar no conteúdo da mesma página
         
         
 # CSS3
