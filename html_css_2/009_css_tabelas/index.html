@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        /* recomendado inserir padding somente nos th e td */
+        th,
+        td {
+            padding: 5px;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- thead = table head (cabeçalho) -->
+        <thead>
+            <tr>
+                <!-- th = table header (títulos das colunas) -->
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+
+        <!-- tbody = table body (corpo) -->
+        <tbody>
+            <tr>
+                <th>Coluna 1 - Linha 1</th>
+                <td>Coluna 2 - Linha 1</td>
+                <td>Coluna 3 - Linha 1</td>
+            </tr>
+            <tr>
+                <th>Coluna 1 - Linha 2</th>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+            </tr>
+        </tbody>
+
+        <!-- tfoot = table footer (rodapé) -->
+        <tfoot>
+            <tr>
+                <th><small>Rodapé 1</small></th>
+                <td><small>Rodapé 2</small></td>
+                <td><small>Rodapé 3</small></td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
