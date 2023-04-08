@@ -1,0 +1,9 @@
+- sempre colocar o <!DOCTYPE html>
+- utilizar as tags com letras minúsculas
+- sempre fechar os elementos
+
+- não deixar espaços entre nomes de atributos, sinal de igual e aspas
+
+- definir sempre o <title> dentro do <head>
+
+- sempre definir o atributo lang="" no elemento <html>

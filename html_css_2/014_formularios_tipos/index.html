@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .form-container {
+            width: 60%;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <form action="https://www.sys4soft.com/udemy/forms/index.php" method="post">
+
+            <!-- type é o tipo de elemento; name é o nome da variável; id pode ser ignorado -->
+            <h3>Formulário</h3>
+
+            <!-- text -->
+            <div class="form-group">
+                <input type="text" name="campo_texto" minlength="5" maxlength="20" required
+                    placeholder="Insira seu nome" value="Rogerio">
+            </div>
+
+            <!-- email - serve apenas para criar um filtro inicial, não medida de segurança -->
+            <div class="form-group">
+                <input type="email" name="campo_email" multiple placeholder="Insira seu e-mail">
+            </div>
+
+            <!-- password -->
+            <div class="form-group">
+                <input type="password" name="senha" placeholder="Digite sua senha">
+            </div>
+
+            <!-- number -->
+            <div class="form-group">
+                <input type="number" name="numero" min="0" max="10" step="0.01">
+            </div>
+
+            <!-- URL -->
+            <div class="form-group">
+                <input type="url" name="campo_url" placeholder="URL">
+            </div>
+
+            <hr>
+
+            <!-- data - pouco utilizado, geralmente utiliza-se javascript -->
+            <div class="form-group">
+                <input type="date" name="campo_date">
+            </div>
+
+            <!-- hora -->
+            <div class="form-group">
+                <input type="time" name="campo_time">
+            </div>
+
+            <!-- week -->
+            <div class="form-group">
+                <input type="week" name="campo_week">
+            </div>
+
+            <!-- month -->
+            <div class="form-group">
+                <input type="month" name="campo_month">
+            </div>
+
+            <!-- datetime-local -->
+            <div class="form-group">
+                <input type="datetime-local" name="campo_datetime-local">
+            </div>
+
+            <!-- submit -->
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+
+    </div>
+    </form>
+
+</body>
+
+</html>

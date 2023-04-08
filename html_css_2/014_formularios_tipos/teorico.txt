@@ -1,0 +1,6 @@
+- formulários enviam um REQUEST a partir do HTML  via POST/GET para o servidor
+
+- Conjunto de elementos para preenchimento
+- Submissão do formulário para o servidor web
+- Tratamento da informação
+- Resposta do servidor face aos dados enviados
