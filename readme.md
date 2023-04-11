@@ -38,6 +38,16 @@
             -> criado com o elemento <a>
             -> permite navegar entre páginas
             -> permite navegar no conteúdo da mesma página
+
+    Segurança
+        - As validações de HTML5 não são seguras;
+        - Pode ser utilizado como um primeiro layer de validação
+        - Pode ser utilizado validação de JavaScript, porém também não é a solução mais segura pois é feito do lado do usuário;
+
+            Como validar?
+                usar validação de html5 como primeira camada;
+                usar javascript como segunda camada;
+                fazer SEMPRE validação do lado do servidor;
         
         
 # CSS3
@@ -64,3 +74,16 @@
             6 ou 8 caracteres (no caso do alpha) que permitem definir as cores.
 
         - Outros
+
+# JavaScript
+
+    JavaScript = ECMA Script
+
+    A mais popular linguagem de programação de scripts para execução do lado do cliente;
+
+    Criada para adicionar interatividade e dinamismo ao HTML;
+    
+        - Fundamentos gerais
+        - Interação com HTML no browser
+
+        

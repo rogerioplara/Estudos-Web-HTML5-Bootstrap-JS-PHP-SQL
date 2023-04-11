@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Segurança</title>
 
     <style>
         .form-container {
@@ -28,12 +28,17 @@
 
     <div class="form-container">
         <form action="https://www.sys4soft.com/udemy/forms/index.php" method="post">
-            <h3>Formulário</h3>
+            <h3>Login</h3>
 
             <div class="form-group">
-                <input type="range" name="campo_intervalo" min="0" max="1000" step="100" value="1000"
-                    oninput="mostrar(this.value)">
-                <p id="valor_range"></p>
+                <label>Usuário:</label>
+                <input type="email" name="campo_usuario" required minlength="3" maxlength="20"
+                    placeholder="Email do usuário">
+            </div>
+
+            <div class="form-group">
+                <label>Senha:</label>
+                <input type="password" name="campo_senha" required minlength="3" maxlength="20" placeholder="Senha">
             </div>
 
             <!-- submit -->
@@ -42,13 +47,6 @@
             </div>
         </form>
     </div>
-
-    <script>
-        // função que mostra os valores do slider em tempo real;
-        function mostrar(value) {
-            document.getElementById("valor_range").innerHTML = value;
-        }
-    </script>
 
 </body>
 
