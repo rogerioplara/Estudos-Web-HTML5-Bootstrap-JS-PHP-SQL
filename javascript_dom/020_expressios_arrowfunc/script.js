@@ -20,3 +20,7 @@ let funcao = function () {
     console.log("Texto da função")
 }
 funcao();
+
+//---------------------------
+//arrow function - introduzidas com o ES6 - sintaxe mais reduzida
+//---------------------------
