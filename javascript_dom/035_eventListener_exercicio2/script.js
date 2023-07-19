@@ -11,8 +11,8 @@ document.querySelectorAll("button").forEach((button) => {
         for(let i=0; i<=250; i+=10){
             let tmp = document.createElement('div')
             tmp.classList.add('caixa')
-            let id = event.target.id
 
+            let id = event.target.id
             if(id === 'btn_vermelho'){
                 tmp.style.backgroundColor = `rgb(${i},0,0)`
             } else if(id === 'btn_verde'){
