@@ -37,18 +37,25 @@ Enunciado:
 
 // Solução do professor sem bootstrap
 
-// array com as cores disponíveis
-const cores = ['#2a9fd6', '#93c', '#77b300', '#c00', '#f80'];
+// // array com as cores disponíveis
+// const cores = ['#2a9fd6', '#93c', '#77b300', '#c00', '#f80'];
 
-//seleciona todos os botões e para cada botão adiciona a função
-document.querySelectorAll('[id^=btn]').forEach((btn) => {
-    console.log(btn)
-    
-    //adiciona um event listener em cada botão, alterando a cor para cada botão disponível
+// //seleciona todos os botões e para cada botão adiciona a função
+// document.querySelectorAll('[id^=btn]').forEach((btn) => {
+//     console.log(btn)
+
+//     //adiciona um event listener em cada botão, alterando a cor para cada botão disponível
+//     btn.addEventListener('click', (btn) => {
+//         let index = btn.target.id.substr(3, 4) - 1;
+//         document.querySelector('h3').style.color = cores[index];
+//     });
+// });
+
+// Solução do professor
+const cores = ['primary', 'info', 'sucess', 'danger', 'warning']
+document.querySelectorAll('[id^="btn"]').forEach((btn) => {
     btn.addEventListener('click', (btn) => {
-        let index = btn.target.id.substr(3, 4) - 1;
-        document.querySelector('h3').style.color = cores[index];
-    });
-});
-
-
+        let index = btn.target.id.substring(3, 4) - 1;
+        document.querySelector('h3').className = 'text-' + cores[index];
+    })
+})
