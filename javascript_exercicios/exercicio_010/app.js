@@ -7,4 +7,18 @@ Enunciado:
     amarelo e as restantes a vermelho.
 ---------------------------------------------------------------------------- */
 
+const boxes = document.querySelectorAll('[id^="box"]');
+boxes.forEach(box => {
+    box.addEventListener('click', (box) => {
+        //colocar todas em vermelho primeiro
+        all_red();
+        //colocar a atual em amarelo
+        box.target.style.backgroundColor = "yellow"
+    })
+})
 
+function all_red(){
+    boxes.forEach(box => {
+        box.style.backgroundColor = "red";
+    })
+}
