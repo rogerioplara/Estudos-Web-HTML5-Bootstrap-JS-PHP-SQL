@@ -1,0 +1,11 @@
+O que é um Breakpoint?
+    é um valor de largura que determina como o layout adapta-se em diferentes dispositivos
+
+brakpoint / infix / dimensions
+
+Extra small / none / <576px
+Small / sm / >= 576px
+medium / md / >- 768px
+large / lg / >= 992px
+extra large / xl / >= 1200px
+extra extra large / xxl / >= 1400px

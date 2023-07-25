@@ -1,0 +1,15 @@
+O que é o Bootstrap?
+
+Uma bibliotaca de CSS de código aberto.
+    - fácil de usar
+    - simples de adicionar a qualquer projeto
+    - muito código pronto
+    - classes para praticamente todo tipo de elementos
+    - pode usar com bibliotecas e frameworks de JS
+    - tem componentes prontos
+    - comunidade grande
+    - completamente customizável
+
+Site Bootstrap:
+
+https://getbootstrap.com/
