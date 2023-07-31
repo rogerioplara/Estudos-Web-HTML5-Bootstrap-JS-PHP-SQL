@@ -1,0 +1,15 @@
+Margin é o espaçamento que se dá entre os elementos, espaçamento externo às bordas do elemento (padding)
+
+Padding é o espaçamento interno do elemento, espaçamento que se dá entre o conteúdo do elemento e sua borda
+
+no bootstrap:
+
+m - margin
+p - padding
+
+t - margin-top
+b - maring-bottom
+s - start
+e - end
+x - eixo x (horizontal)
+y - eixo y (vertical)
