@@ -14,31 +14,43 @@
 
 <body>
 
-    <!-- tooltips podem ser alteradas em sua posição e cor -->
+    <!-- dropdown fundamental -->
 
     <div class="container mt-5">
         <div class="row mt-5">
-            <div class="col mt-5 text-center">
-                Este texto contém uma <strong><span data-bs-toggle="tooltip" data-bs-title="Instruções do tooltip">tooltip</span></strong> para a informação extra.
+            <div class="col">
+
+                <div class="dropdown">
+
+                    <button type="button" class="btn btn-secondary dropdown-toggle btn-danger"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Menu Dropdown
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Item 1</a></li>
+                        <li><a href="#" class="dropdown-item">Item 2</a></li>
+                        <li><a href="#" class="dropdown-item">Item 3</a></li>
+                        <li><a href="#" class="dropdown-item">Item 4</a></li>
+                        <li><hr></li>
+                        <li><a href="#" class="dropdown-item">Logout</a></li>
+                    </ul>
+
+                </div>
+
             </div>
         </div>
-        <div class="col mt-5 text-center">
-            <a href="#" data-bs-toggle="tooltip" data-bs-title="Tooltip em links" data-bs-placement="bottom">
-                Também é possível inserir em links
-            </a>
-        </div>
     </div>
+
+    
+    
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-
-    <!--script necessário para habilitar os tooltips-->
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
 
 </body>
 
