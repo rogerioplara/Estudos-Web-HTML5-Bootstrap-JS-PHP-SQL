@@ -30,8 +30,10 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="minhaModal" tabindex="-1">
-        <div class="modal-dialog">
+    <!-- as tags backdrop e keyboard impedem que o modal seja fechado clicando fora dele e utilizando o esc, obriga o usuário a utilizar algum dos botões -->
+    <div class="modal fade" id="minhaModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <!-- centraliza o modal no meio da tela -->
+        <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="moda-title">Título</h5>
